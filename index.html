@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+</head>
+<body>
+    <fieldset>
+        <legend align="center"><b>----INFORMATION----</b></legend>
+
+        <form action="./test.html">
+            <label for='first name'>First Name: </label>
+            <input id="first name" type="text" placeholder="Sumaiya">
+            <br><br>
+    
+            <label for="last name">Last Name: </label>
+            <input id="last name" type="text" placeholder="Akter">
+            <br><br>
+    
+            <label for="Date">Birth Date: </label>
+            <input type="date" id="Date">
+            <br><br>
+    
+            <label for="date_time">Date & Time:</label>
+            <input id="date_time" type="datetime-local">
+            <br><br>
+    
+            <label for="only_time">Time:</label>
+            <input type="time" id="only_time">
+            <br><br>
+    
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+    
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+    
+            <label for="others">others</label>
+            <input type="radio" name="gender" id="others">
+            <br><br>
+    
+            <label for="url"> URL </label>
+            <input id="url" type="url" placeholder="http:/www.abc.com">
+            <br><br>
+    
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="abc@gmail.com">
+            <br><br>
+    
+            <label for="Phone">Phone Number:</label>
+            <input type="number" id="Phone" placeholder="number">
+            <br><br>
+    
+            <label for="telephone">Telephone</label>
+            <input type="tel" pattern="[0-9]{2}-[0-9]{3}" placeholder="00-000">
+            <br><br>
+    
+            <label for="password">Password</label>
+            <input id="password" type="password" required>
+            <br><br>
+    
+            <label for="week">Week:</label>
+            <input type="week" placeholder="week" id="week">
+            <br><br>
+    
+            <label for="division">Division</label>
+            <select name="division" id="division">
+                <option disabled selected>Choose an option</option>
+                <option>Dhaka</option>
+                <option>Chattogram</option>
+                <option>Khulna</option>
+                <option>Rajshahi</option>
+                <option>Sylhet</option>
+            </select>
+            <br><br>
+    
+            <label for="details">Comment:</label>
+            <textarea id="details" placeholder="What's on your mind?"></textarea>
+            <br><br>
+    
+            <label for="search">Searching....</label>
+            <input id="search" type="search">
+            <br><br>
+    
+            <label for="file">Select an image:</label>
+            <input type="file" id="file" accept=".png">
+            <br><br>
+    
+            <label for="range">Range:</label>
+            <input type="range" id="range" >
+            <br><br>
+    
+            <label for="color">Color:</label>
+            <input type="color" id="color" placeholder="color">
+            <br><br>
+    
+            <p>Choose your device or devices:</p>
+            <label for="mobile">Mobile</label>
+            <input type="checkbox" id="mobile">
+    
+            <label for="PC">PC</label>
+            <input type="checkbox" id="PC">
+    
+            <label for="Tab">Tab</label>
+            <input type="checkbox" id="Tab">
+    
+            <label for="others">Others</label>
+            <input type="checkbox" id="others">
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>
